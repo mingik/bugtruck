@@ -1,6 +1,6 @@
-(ns bugtruck.core)
+(ns bugtruck.core
+  (:use compojure.core))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defroutes app
+  (GET "/" []
+       "Bugtruck main page"))

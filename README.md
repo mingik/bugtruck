@@ -4,7 +4,9 @@ A Bugtruck project.
 
 ## Usage
 
-FIXME
+>lein ring server
+
+Go to http://localhost:3000/
 
 ## License
 
