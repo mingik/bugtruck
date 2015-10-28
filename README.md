@@ -4,9 +4,8 @@ A Bugtruck project.
 
 ## Usage
 
+>sqlite3 -init resources/data/schema.sql bugtrucker.db .quit
 >lein ring server
-
-Go to http://localhost:3000/
 
 ## License
 
