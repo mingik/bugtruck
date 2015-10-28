@@ -7,6 +7,7 @@
                  [ring/ring-core "1.4.0"]
 		 [korma "0.4.2"]
 		 [org.xerial/sqlite-jdbc "3.7.15-M1"]
+                 [hiccup "1.0.5"]
                  [compojure "1.4.0"]]
   :plugins [[lein-ring "0.9.7"]]
 
