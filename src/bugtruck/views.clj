@@ -4,6 +4,9 @@
             [bugtruck.models :as models]
             [ring.util.response :as response]))
 
+(defn index []
+  (response/redirect "/projects"))
+
 ; page template
 (defn base-page [title & body]
   (html5 

@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [ring/ring-core "1.4.0"]
 		 [korma "0.4.2"]
+                 [javax.servlet/servlet-api "2.5"]
 		 [org.xerial/sqlite-jdbc "3.7.15-M1"]
                  [hiccup "1.0.5"]
                  [compojure "1.4.0"]]
